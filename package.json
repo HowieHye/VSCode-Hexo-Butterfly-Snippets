@@ -1,0 +1,45 @@
+{
+	"name": "hexo-butterfly-snippets-modify",
+	"displayName": "Hexo Butterfly Snippets Modify",
+	"description": "Some Snippets and Command for Hexo Butterfly Theme in markdown writing",
+	"version": "1.0.0",
+	"publisher": "HowieHye",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"activationEvents": [
+		"onLanguage:markdown"
+	],
+	"main": "./extension.js",
+	"contributes": {
+        "snippets": [
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.json"
+            }
+        ]
+	},
+	"scripts": {
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.41.0",
+		"eslint": "^6.6.0",
+		"glob": "^7.1.5",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"vscode-test": "^1.2.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HowieHye/VSCode-Hexo-Butterfly-Snippets-Modify"
+    },
+    "homepage": "https://github.com/HowieHye/VSCode-Hexo-Butterfly-Snippets-Modify",
+    "icon": "lib/hexo.png"
+}
