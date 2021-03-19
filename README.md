@@ -34,7 +34,7 @@ Fork from [KakaWanYifan/VSCode-Hexo-Butterfly-Snippets](https://github.com/KakaW
 
 ## 安装
 
-已在`Visual Code`上架了，搜索`Hexo Butterfly Snippets`。
+已在`Visual Code`上架了，搜索`Hexo Butterfly Snippets Modify`。
 
 ## 打包
 
