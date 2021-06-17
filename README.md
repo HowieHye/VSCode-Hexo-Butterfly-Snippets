@@ -27,6 +27,8 @@ Fork from [KakaWanYifan/VSCode-Hexo-Butterfly-Snippets](https://github.com/KakaW
 - `>toggle`: Insert Toggle tag-hide.
 - `>btn`: Insert Button.
 - `>code`: Insert Code formula.
+- '>inlineimg': Insert Inline Image.
+- '>label': Insert Label.
 
 ### 自定义功能
 

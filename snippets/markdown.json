@@ -192,5 +192,22 @@
       "",
       "```"
     ]
+  },
+  "Insert InlineImg": {
+    "prefix": [
+      "inlineimg"
+    ],
+    "body": [
+      "{% inlineImg [src] [height] %}"
+    ],
+    "description": "Insert Inline Image"
+  },
+  "Insert Label": {
+    "prefix": [
+      "label"
+    ],
+    "body": [
+      "{% label text color %}"
+    ]
   }
 }

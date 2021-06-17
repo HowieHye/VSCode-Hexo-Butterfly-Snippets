@@ -18,16 +18,16 @@ function activate(context) {
 	console.log('Congratulations, your extension "hexo-butterfly-snippets" is now active!');
 
 	// context.subscriptions.push(disposable);
-    context.subscriptions.push(vscode.workspace.onDidChangeTextDocument((e) => {
-        if (vscode.window.activeTextEditor.document.languageId == "markdown")
-            if (e.contentChanges[0].text == ">")
-                vscode.commands.executeCommand("editor.action.triggerSuggest");
-    }))
+	context.subscriptions.push(vscode.workspace.onDidChangeTextDocument((e) => {
+		if (vscode.window.activeTextEditor.document.languageId == "markdown")
+			if (e.contentChanges[0].text == ">")
+				vscode.commands.executeCommand("editor.action.triggerSuggest");
+	}))
 }
 exports.activate = activate;
 
 // this method is called when your extension is deactivated
-function deactivate() {}
+function deactivate() { }
 
 module.exports = {
 	activate,
